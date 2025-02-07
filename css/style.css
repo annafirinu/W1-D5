@@ -1,0 +1,175 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body { 
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    text-align: center;
+    font-family: "Poppins", serif; 
+    font-weight: 400; 
+    font-style: normal;
+}
+
+
+h3 {
+    color:#25a2c3;
+    line-height: 1.5;
+    font-family: "Poppins", serif; 
+    font-weight: 700; 
+    font-style: normal;
+    font-size: 3rem;
+}
+/* HEADER */
+#box1 {
+    background-color:black ;
+    margin:0;
+
+}
+
+#logo {
+    width: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+#box2 {
+    background-image: url(../images/banner.jpg);
+    padding: 20px;
+    width: auto;
+    height: 380px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-size: 135%;
+    
+
+}
+
+button {
+    background-color: #f04c2f ;
+border-radius: 10%;
+margin-left: 80px;
+margin-right: 80px;
+width: 150px;
+height: 40px;
+border-color: transparent;
+color:white;
+font-weight: bold;
+
+    
+}
+/* MAIN */
+.intestazioni{
+    color:#25a2c3;
+    font-weight: bold;
+}
+
+#img1 {
+    border-radius: 100%;
+}
+
+#box2 h3 {
+    margin:0;
+}
+
+#box3 {
+    width: auto;
+    height: 300px;
+    background-color: #e22d0e;
+    color:white;
+    padding:20px ;
+    margin:0;
+    
+}
+
+.intestazionewhite {
+    color:white;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+.corsivo {
+    font-style: italic;
+}
+
+#box4{ 
+    width: 350px;
+    height: 420px;
+    margin-top: 40px;
+    margin-left:auto ;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding:0;
+    border:2px solid #dee1e3;
+    text-align: center;
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+
+    }
+
+
+#box5{ 
+    width: 350px;
+    height: 420px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding:0;
+    border:2px solid #dee1e3;
+    text-align: center;
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    }
+
+
+    #box6 { 
+        width: 350px;
+        height: 420px;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+        padding:0;
+        border:2px solid #dee1e3;
+        text-align: center;
+    border-bottom-right-radius: 2%;
+border-bottom-left-radius: 2%;
+}
+    
+
+    .immagini{
+        width: 350px;
+        height: 400;
+        
+    }
+/* FOOTER*/
+    
+    footer {
+        padding: 20px;
+        color:white;
+        width: auto;
+        height: 370px;
+        background-color: #25a2c3;
+    }
+
+    footer #box7 p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    footer #box7 h4{
+        margin-top: 20px;
+    } 
+    .copyright {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-top: 40px;
+        border-top: 1px solid white;
+        font-size: 0.8em;
+    }
